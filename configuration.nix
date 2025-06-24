@@ -110,7 +110,11 @@
   };
 
   # OpenGL #
-  hardware.graphics.enable = true;
+  hardware.opengl = {
+  enable = true;
+  driSupport = true;
+  driSupport32Bit = true;
+  };
 
   # Wayland Electron #
   environment.sessionVariables.NIXOS_OZONE_WL = "1";
