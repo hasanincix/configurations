@@ -71,7 +71,7 @@
   console.keyMap = "trq";
 
   # Printing #
-  # services.printing.enable = true;
+  services.printing.enable = true;
 
   # Packages managements #
   services.flatpak.enable = true;
@@ -160,7 +160,7 @@
     wget zsh zsh-autosuggestions zsh-syntax-highlighting zsh-z zoxide
 
     # Apps #
-    bottles discord gimp libreoffice-qt6-fresh librecad lutris
+    bottles discord gimp libreoffice-fresh librecad lutris
     gnome-tweaks steam thunderbird
 
     # Fonts #
