@@ -71,7 +71,7 @@
   console.keyMap = "trq";
 
   # Printing #
-  # services.printing.enable = true;
+  services.printing.enable = true;
 
   # Packages managements #
   services.flatpak.enable = true;
